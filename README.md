@@ -57,6 +57,3 @@ programa exibe o comprovante com todos os dados da compra e se tem idade e saldo
   
   Fim
    
-   Escreval("========================================")
-
-Fimalgoritmo

@@ -29,14 +29,12 @@ programa verifica a idade do  cliente
    temSaldo <- (saldo >= valorTotal)
    
 programa exibe o comprovante com todos os dados da compra e se tem idade e saldo suficiente e troco
-   Escreval("")
-   Escreval("========================================")
-   Escreval("           COMPROVANTE / STATUS         ")
-   Escreval("========================================")
+   Escreval("----------------------------------------")
+   Escreval("           COMPROVANTE")
    Escreval("Cliente: ", nome)
    Escreval("Idade: ", idade, " anos")
    Escreval("Saldo Atual: R$ ", saldo:0:2)
-   Escreval("Valor Total da Compra: R$ ", valorTotal:0:2, " (", quantidade, " x R$ ", precoProduto:0:2, ")")
+   Escreval("Valor Total da Compra: R$ ", valorTotal")
    Escreval("----------------------------------------")
    
    // Estrutura de Decisão para os 4 Cenários
